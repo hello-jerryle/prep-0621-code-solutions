@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    h3 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<h3>Indiana Jones</h3>
+<div class="container">
+<div class="row">
+<div class="column"> <img src="images/raiders.jpg" width="100%">
+  <p> <b>Raiders of the Lost Ark</b> <br> <br>
+    Raiders of the Lost Ark[a] is a 1981 American action-adventure film directed by Steven Spielberg and written by Lawrence
+    Kasdan, based on a story by George Lucas and Philip Kaufman.</p>
+</div>
+
+<div class="column"> <img src="images/temple.jpg" width="100%">
+  <p> <b>Temple of Doom</b> <br> <br>
+  It is the second installment in the Indiana Jones franchise, a prequel to the 1981 film Raiders of the Lost Ark,
+  featuring Harrison Ford reprising his role as the title character and the second film to use THX technology after Return
+  of the Jedi.</p>
+</div>
+<div class="column"> <img src="images/crusade.png" width="100%">
+  <p> <b>The Last Crusade</b> <br> <br>
+It is the third installment in the Indiana Jones franchise and a sequel to Raiders of the Lost Ark. It is also the first
+Indiana Jones film to be rated PG-13. Harrison Ford returned in the title role, while his father is portrayed by Sean
+Connery.</p>
+</div>
+</div>
+</div>
+
+<!-- Complete the HTML here -->
+
+</body>
+</html>
